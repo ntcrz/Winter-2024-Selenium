@@ -90,7 +90,7 @@ public class Selenium_Basics {
          * return-type: String
          */
         String foundPageTitle = driver.getTitle();
-        String expectedPageTitle = "Facebook – log in or sign up";
+        String expectedPageTitle = "Facebook - log in or sign up";
         Assert.assertEquals(foundPageTitle, expectedPageTitle, "Page title is NOT as expected");
 
         /*
